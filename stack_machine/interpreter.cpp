@@ -170,10 +170,6 @@ void interpreter::return_func()
 	}
 }
 
-void interpreter::callext_func(std::string label)
-{
-}
-
 void interpreter::compile_functions()
 {
 	fstream fin;
@@ -397,7 +393,7 @@ void interpreter::call_command(pair<cmatch, interpreter::commands> command_to_ca
 		break;
 
 	case interpreter::FUNCTION_BRACKET_OPEN:
-		//Придерживаясь логики создания функций, такой исход возможен лишь при синтаксической ошибке.
+		//ГЏГ°ГЁГ¤ГҐГ°Г¦ГЁГўГ ГїГ±Гј Г«Г®ГЈГЁГЄГЁ Г±Г®Г§Г¤Г Г­ГЁГї ГґГіГ­ГЄГ¶ГЁГ©, ГІГ ГЄГ®Г© ГЁГ±ГµГ®Г¤ ГўГ®Г§Г¬Г®Г¦ГҐГ­ Г«ГЁГёГј ГЇГ°ГЁ Г±ГЁГ­ГІГ ГЄГ±ГЁГ·ГҐГ±ГЄГ®Г© Г®ГёГЁГЎГЄГҐ.
 		throw Exceptions::SyntaxError("Use \"{\" only to define function.");
 		break;
 
