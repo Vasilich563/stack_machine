@@ -1,0 +1,24 @@
+function main {
+
+push 5
+push 6
+add
+
+call func
+peek n
+push n
+push m #Oh no!!! Error!
+
+return
+}
+
+function func #Hm... I guess, everything fine... But I'm not sure...
+{
+#This function is not correct
+
+push 11
+div
+
+#have return
+return
+}

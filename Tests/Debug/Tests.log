@@ -1,0 +1,16 @@
+﻿  test.cpp
+E:\work\c++saves\training_projects\stack_machine\stack_machine\interpreter.cpp(98,46): warning C4244: аргумент: преобразование "std::streamoff" в "_Ty", возможна потеря данных
+          with
+          [
+              _Ty=int
+          ]
+E:\work\c++saves\training_projects\stack_machine\stack_machine\interpreter.cpp(118,46): warning C4244: аргумент: преобразование "std::streamoff" в "_Ty", возможна потеря данных
+          with
+          [
+              _Ty=int
+          ]
+E:\work\c++saves\training_projects\stack_machine\stack_machine\interpreter.cpp(201,30): warning C4244: =: преобразование "std::streamoff" в "int", возможна потеря данных
+E:\work\c++saves\training_projects\stack_machine\stack_machine\interpreter.cpp(214,28): warning C4244: =: преобразование "std::streamoff" в "int", возможна потеря данных
+E:\work\c++saves\training_projects\stack_machine\Tests\test.cpp(101,34): warning C4101: SynEr: неиспользованная локальная переменная
+E:\work\c++saves\training_projects\stack_machine\Tests\test.cpp(116,32): warning C4101: NameEr: неиспользованная локальная переменная
+  Tests.vcxproj -> E:\work\c++saves\training_projects\stack_machine\Debug\Tests.exe

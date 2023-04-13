@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GtaTestDurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Executable>E:\work\c++saves\training_projects\stack_machine\Debug\Tests.exe</Executable>
+  <TestDurations>
+    <TestDuration Test="TestCaseName.TestName" Duration="1" />
+    <TestDuration Test="TestCaseName.Test1" Duration="1" />
+    <TestDuration Test="Test1.interpreter" Duration="1" />
+    <TestDuration Test="Test1.interpreter_test" Duration="105" />
+    <TestDuration Test="Test1.Factorial" Duration="114" />
+    <TestDuration Test="Test2.interpreter_test" Duration="1" />
+    <TestDuration Test="Test3.interpreter_test" Duration="1" />
+    <TestDuration Test="Test4.interpreter_test" Duration="1" />
+    <TestDuration Test="Test5.interpreter_test" Duration="29" />
+    <TestDuration Test="Test6.interpreter_test" Duration="11" />
+    <TestDuration Test="Test7.interpreter_test" Duration="15" />
+    <TestDuration Test="Test8.interpreter_test" Duration="14" />
+    <TestDuration Test="Test9.interpreter_test" Duration="7" />
+    <TestDuration Test="Test10.interpreter_test" Duration="24" />
+    <TestDuration Test="Test1.Factorial_11" Duration="325" />
+    <TestDuration Test="Test2.Factorial_0" Duration="50" />
+    <TestDuration Test="Test11.SyntaxError" Duration="9" />
+    <TestDuration Test="Test12.NameError" Duration="10" />
+    <TestDuration Test="Test13.InterpreterError" Duration="1" />
+    <TestDuration Test="Test11.interpreter_test" Duration="1" />
+    <TestDuration Test="Test12.SyntaxError" Duration="9" />
+    <TestDuration Test="Test13.NameError" Duration="10" />
+    <TestDuration Test="Test14.InterpreterError" Duration="3" />
+    <TestDuration Test="Test14.CatchByBasicError" Duration="4" />
+    <TestDuration Test="Test3.Functions" Duration="126" />
+    <TestDuration Test="Test4.Functions_In_Functions" Duration="83" />
+  </TestDurations>
+</GtaTestDurations>
