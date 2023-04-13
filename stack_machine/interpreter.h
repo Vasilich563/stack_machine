@@ -83,8 +83,6 @@ private:
 
 	void return_func();
 
-	void callext_func(std::string label);
-
 	void compile_functions();
 
 	void is_unique(std::string function_name);
